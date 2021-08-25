@@ -1,45 +1,37 @@
 <?php include("partials/_header.php"); ?>
 
     <div class="container">
-        <h1 class="lead">Devenez dès à présent membre !</h1>
-            
-            <form data-parsley-validate method="post" class="well col-md-6 " autocomplete="off">
-                <!--Name field-->
-                <div class="form-group">
-                    <label class="control-label" for="name">Nom :</label>
-                    <input class="form-control" type="text" name="name" id="name" required="required"  value=""
-                           data-parsley-minlength="3" data-parsley-trigger="keypress"/>
-                </div>
+        <h1 class="lead">Devenez dès à présent membre</h1>
 
-                <!--Pseudo field-->
-                <div class="form-group">
-                    <label class="control-label" for="pseudo">Pseudo :</label>
-                    <input class="form-control" type="text" name="pseudo" id="pseudo" required="required" value=""
-                           data-parsley-minlength="3" data-parsley-trigger="keypress"/>
-                </div>
+        <form action="" method="post" class="well col-md-6">
+            <div class="form-group">
+                <label for="name" class="control-label">Nom & Prénoms</label>
+                <input type="text" name="name" id="name" class="form-control">
+            </div>
 
-                <!--Email field-->
-                <div class="form-group">
-                    <label class="control-label" for="email">Adresse Email :</label>
-                    <input class="form-control" type="email" name="email" id="email" required="required" value="" data-parsley-trigger="keypress"/>
-                </div>
+            <div class="form-group">
+                <label for="pseudo" class="control-label">Pseudo</label>
+                <input type="text" name="pseudo" id="pseudo" class="form-control">
+            </div>
 
-                <!--Password field-->
-                <div class="form-group">
-                    <label class="control-label" for="password">Mot de passe :</label>
-                    <input class="form-control" type="password" name="password" id="password" required="required"
-                           data-parsley-minlength="6" data-parsley-trigger="keypress"/>
-                </div>
+            <div class="form-group">
+                <label for="email" class="control-label">Adresse Email</label>
+                <input type="text" name="email" id="email" class="form-control">
+            </div>
 
-                <!--Password Confirmation field-->
-                <div class="form-group">
-                    <label class="control-label" for="password_confirm">Confirmer votre mot de passe :</label>
-                    <input class="form-control" type="password" name="password_confirm" id="password_confirm" required="required"
-                           data-parsley-equalto = "#password" data-parsley-minlength="6" data-parsley-trigger="keypress"/>
-                </div>
+            <div class="form-group">
+                <label for="password" class="control-label">Mot de passe</label>
+                <input type="password" name="password" id="password" class="form-control">
+            </div>
 
-                <input type="submit" class="btn btn-primary" name="register" value="Inscription" />
-            </form>
-    </div><!-- /.container -->
+            <div class="form-group">
+                <label for="password_confirm" class="control-label">Confirmer votre mot de passe</label>
+                <input type="password" name="password_confirm" id="password_confirm" class="form-control">
+            </div>
+
+            <input type="submit" name="register" value="Inscription" class="btn btn-primary">
+
+        </form>
+    </div>
 
 <?php include("partials/_footer.php");

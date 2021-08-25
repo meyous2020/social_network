@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad06ab51-179c-4b78-8e96-1c55c67bde30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YOUSSOUF_MEITE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/social-network.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/emails/activation.tmpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.view.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xDWgINbWvWP0DeBla9RU6mQ0wJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Program Files/JetBrains/fr/fr.dic" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Program Files\JetBrains\fr" CustomDictionaries="1" CustomDictionary0="C:\Program Files\JetBrains\fr\fr.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad06ab51-179c-4b78-8e96-1c55c67bde30" name="Default Changelist" comment="" />
+      <created>1629890248323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629890248323</updated>
+      <workItem from="1629890249557" duration="632000" />
+      <workItem from="1629890904508" duration="14932000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="215" key="#Notifications" timestamp="1629890303471">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="526" y="215" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1629890303471" />
+    <state x="526" y="129" key="FileChooserDialogImpl" timestamp="1629890751840">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="526" y="129" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1629890751840" />
+    <state x="609" y="347" key="NewPhpFileDialog" timestamp="1629901683569">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="347" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1629901683569" />
+    <state x="194" y="0" key="SettingsEditor" timestamp="1629891883173">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="194" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1629891883173" />
+  </component>
+</project>
