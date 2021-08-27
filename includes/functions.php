@@ -1,4 +1,22 @@
 <?php
+
+//
+
+if(!function_exists('_function')){
+    function _function(){
+
+    }
+}
+
+if(!function_exists('debug')){
+    function debug($value){
+        echo "<pre>";
+            print_r($value);
+            die;
+        echo "</pre>";
+    }
+}
+
 if(!function_exists('not_empty')){
     function not_empty($fields = []){
         if(count($fields) !=0){
@@ -25,3 +43,18 @@ if(!function_exists('is_already_in_use')){
 
     }
 }
+
+if(!function_exists('set_flash')){
+    function set_flash($message,$type= 'info'){
+        $_SESSION['notification']['message'] = $message;
+        $_SESSION['notification']['type'] = $type;
+    }
+}
+
+if(!function_exists('redirect')){
+    function redirect($page){
+        header('Location: '.$page);
+        exit;
+    }
+}
+

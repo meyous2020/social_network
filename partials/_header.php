@@ -21,7 +21,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/3.4.1/readable/bootstrap.min.css" integrity="sha384-cEtSoDrbFB1ZfF3E823wseIQXTddQNKRdACknoZ9ivL6BoQcvL9qrUcA3yPxf14L" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -32,3 +32,4 @@
 
   <body>
 <?php include("partials/_nav.php"); ?>
+<?php include("partials/_flash.php"); ?>

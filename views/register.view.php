@@ -2,7 +2,6 @@
 
     <div class="container">
         <h1 class="lead">Devenez dès à présent membre</h1>
-
         <form action="" method="post" class="well col-md-6">
             <div class="form-group">
                 <label for="name" class="control-label">Nom & Prénoms</label>

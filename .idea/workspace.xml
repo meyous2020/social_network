@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad06ab51-179c-4b78-8e96-1c55c67bde30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YOUSSOUF_MEITE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/social-network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/emails/activation.tmpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/_flash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.view.php" afterDir="false" />
     </list>
@@ -35,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Program Files/JetBrains/fr/fr.dic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -49,7 +45,9 @@
       <option name="presentableId" value="Default" />
       <updated>1629890248323</updated>
       <workItem from="1629890249557" duration="632000" />
-      <workItem from="1629890904508" duration="14932000" />
+      <workItem from="1629890904508" duration="16364000" />
+      <workItem from="1629910118874" duration="132000" />
+      <workItem from="1630051070920" duration="9299000" />
     </task>
     <servers />
   </component>
@@ -61,14 +59,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="526" y="215" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1629890303471" />
-    <state x="526" y="129" key="FileChooserDialogImpl" timestamp="1629890751840">
+    <state x="526" y="129" key="FileChooserDialogImpl" timestamp="1629910249324">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="526" y="129" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1629890751840" />
-    <state x="609" y="347" key="NewPhpFileDialog" timestamp="1629901683569">
+    <state x="526" y="129" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1629910249324" />
+    <state x="609" y="347" key="NewPhpFileDialog" timestamp="1630055071929">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="609" y="347" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1629901683569" />
+    <state x="609" y="347" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1630055071929" />
     <state x="194" y="0" key="SettingsEditor" timestamp="1629891883173">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

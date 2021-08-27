@@ -1,5 +1,6 @@
 
 <?php
+    session_start();
     $title = "Inscription";
     require ('config/database.php');
     require ('includes/constants.php');
@@ -50,12 +51,14 @@
                 $headers = 'MINE-Version : 1.0 ' . "\r\n";
                 $headers .= 'Content-type : text/html charset=utf-8' . "\r\n";
 
-                mail($to,$subject,$content,$headers);
+                // mail($to,$subject,$content,$headers);
 
                 // Informer l' utilisateur pour qu' il vérifie sa boîte de reception
-                echo "Mail d' activation envoyé !";
+
+                set_flash("le mail d' activation est envoyé !","success");
 
                 // Redirection vers sa page de profil
+                redirect('index.php');
             }
 
         }else{
